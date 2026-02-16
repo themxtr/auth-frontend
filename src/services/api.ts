@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://auth-frontend-ten-iota.vercel.app/api/auth",
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
 });
 
 // Attach token automatically
