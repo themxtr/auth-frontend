@@ -12,7 +12,7 @@ export default function Home() {
       </h1>
 
       <p className="mb-8">
-        JWT + Firebase + Next.js (Industry-Level Setup)
+        JWT + Firebase + Next.js(deployment by madhavan)
       </p>
 
       <div className="flex gap-4">
